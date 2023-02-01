@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="mx-auto max-w-7xl mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height"
+        className="mx-auto w-full mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height"
         id="hero"
       >
         <article className="sm:w-1/2">
@@ -23,7 +23,7 @@ const Hero = () => {
         <img className="w-1/2" src={HeroImg} alt="Rocket Dab" />
       </section>
 
-      <hr className="dark:bg-white mx-auto w-1/2 bg-black" />
+      {/* <hr className="dark:bg-white mx-auto w-1/2 bg-black" /> */}
     </>
   );
 };

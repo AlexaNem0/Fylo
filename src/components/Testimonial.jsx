@@ -1,11 +1,15 @@
 import React from "react";
 import TestimonialImg from "../assets/images/illustration-2.svg";
+import BackImg from "../assets/images/bg-curve-desktop.svg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import Card from "./Card";
 const Testimonial = () => {
   return (
     <>
+      <img className="mx-auto w-full" src={BackImg} alt="" />
       <section
-        className="mx-auto max-w-7xl mt-12 mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height"
+        className="bg-[#F8F8FE] mx-auto w-full  mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height
+        "
         id="testimonial"
       >
         <article className="sm:w-1/2">
@@ -20,18 +24,20 @@ const Testimonial = () => {
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
-
           <a
             className="flex flex-row justify-center items-center mt-4 gap-2 text-green-500 text-lg underline underline-offset-8 md:justify-start "
             href="https://www.dropbox.com/"
+            target="blank"
           >
             See how Fylo works
             <BsFillArrowRightCircleFill />
           </a>
+          <div className="flex justify-center md:justify-start mt-20">
+            <Card />
+          </div>
         </article>
         <img className="w-1/2" src={TestimonialImg} alt="/" />
       </section>
-
       <hr className="dark:bg-white mx-auto w-1/2 bg-black" />
     </>
   );

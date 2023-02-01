@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <header className="sticky top-0 z-10 bg-blue-100 ">
-        <section className="mx-auto flex max-w-7xl items-center justify-between p-4">
+        <section className="mx-auto flex w-full items-center justify-between p-4">
           <a href="#hero">
             <img src={Logo} alt="" />
           </a>
