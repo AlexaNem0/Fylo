@@ -2,9 +2,9 @@ import React from "react";
 import Logo from "../assets/images/logo.svg";
 const Navbar = () => {
   return (
-    <>
-      <header className="sticky top-0 z-10 bg-blue-100 ">
-        <section className="mx-auto flex w-full items-center justify-between p-4">
+    <div className="bg-blue-100">
+      <header className="sticky top-0 z-10 ">
+        <section className="mx-auto flex w-full items-center justify-between p-4 max-w-7xl">
           <a href="#hero">
             <img src={Logo} alt="" />
           </a>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </nav>
         </section> */}
       </header>
-    </>
+    </div>
   );
 };
 
