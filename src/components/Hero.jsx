@@ -5,14 +5,14 @@ const Hero = () => {
   return (
     <>
       <section
-        className="max-w-7xl mx-auto mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-2 md:gap-2 lg:gap-8 p-6 sm:flex-row  widescreen:section-min-height tallscreen:section-min-height"
+        className="max-w-7xl mx-auto my-4 md:my-12 flex flex-col-reverse items-center justify-center gap-6 lg:gap-8 p-6 sm:flex-row"
         id="hero"
       >
         <article className="sm:w-1/2">
-          <h2 className="max-w-md text-center text-4xl font-bold sm:text-left sm:text-5xl  ">
+          <h2 className="max-w-md text-center text-3xl font-bold sm:text-left sm:text-5xl  ">
             All your files in one secure location, accessible anywhere.
           </h2>
-          <p className="mt-4 max-w-md text-center text-xl sm:text-left">
+          <p className="mt-4 max-w-md text-center md:text-xl sm:text-left">
             Fylo stores your most important files in one secure location. Access
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
@@ -20,10 +20,8 @@ const Hero = () => {
 
           <Input />
         </article>
-        <img className="w-1/2" src={HeroImg} alt="Rocket Dab" />
+        <img className="w-1/2" src={HeroImg} alt="/" />
       </section>
-
-      {/* <hr className="dark:bg-white mx-auto w-1/2 bg-black" /> */}
     </>
   );
 };
