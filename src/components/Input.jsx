@@ -22,14 +22,14 @@ const Input = () => {
   return (
     <div>
       <form
-        className="mt-4 flex"
+        className="mt-4 flex flex-col gap-4  items-center md:items-start md:flex-row"
         name="contact"
         action="/contact"
         method="post"
       >
         <input type="hidden" name="form-name" value="contact" />
         <input
-          className="outline-none rounded-l-lg sm:p-3 lg:px-11 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white text-center"
+          className="outline-none rounded py-3 px-10 lg:px-20 border mr-0 text-gray-800 border-gray-200 bg-white text-center"
           placeholder="your@mail.com"
           name="email"
           type="email"
@@ -37,7 +37,7 @@ const Input = () => {
           onChange={(e) => validateEmail(e)}
         />
         <button
-          className="px-4 md:px-7 rounded-r-lg bg-blue-400 hover:bg-sky-300 font-bold p-4 uppercase  border-t border-b border-r text-white tracking-wide md:tracking-wider"
+          className="py-4 px-[6.5rem] md:px-5 md:py-3 rounded bg-blue-400 hover:bg-sky-300 font-bold p-4 uppercase   text-white  text-xs md:text-base  tracking-wide md:tracking-wider"
           type="submit"
         >
           Subscribe
