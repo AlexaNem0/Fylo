@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import validator from "validator";
 
-const Input = () => {
+const InputStart = () => {
   const [emailError, setEmailError] = useState("");
   // const [emailIsEmpty, setEmailIsEmpty] = useState("");
 
@@ -36,15 +36,15 @@ const Input = () => {
           onChange={(e) => validateEmail(e)}
         />
         <button
-          className="px-4 md:px-7 rounded-r-lg bg-blue-400 hover:bg-sky-300 font-bold p-4 uppercase  border-t border-b border-r text-white tracking-wide md:tracking-wider"
+          className="px-4 md:px-7 rounded-r-lg bg-blue-400 hover:bg-sky-300 font-bold p-4 uppercase  border-t border-b border-r text-white tracking-wide text-sm"
           type="submit"
         >
-          Subscribe
+          Get Started
         </button>
       </form>
-      <p className="text-[#FFC2C8] text-sm mt-2">{emailError}</p>
+      <p className="text-red-300 text-sm mt-2">{emailError}</p>
     </div>
   );
 };
 
-export default Input;
+export default InputStart;

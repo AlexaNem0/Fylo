@@ -16,13 +16,13 @@ const Navbar = () => {
               <div className="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"></div>
             </button> */}
             <nav className="aria-label='main' space-x-2  md:space-x-8  lg:space-x-10 text-sm md:text-xl md:block">
-              <a href="#rockets" className="hover:opacity-90">
+              <a href="#hero" className="hover:opacity-90">
                 Features
               </a>
               <a href="#testimonials" className="hover:opacity-90">
                 Team
               </a>
-              <a href="#contact" className="hover:opacity-90">
+              <a href="#footer" className="hover:opacity-90">
                 Sign In
               </a>
             </nav>

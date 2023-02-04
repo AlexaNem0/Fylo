@@ -5,11 +5,11 @@ const Hero = () => {
   return (
     <>
       <section
-        className="max-w-7xl mx-auto w-full mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height"
+        className="max-w-7xl mx-auto mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-2 md:gap-2 lg:gap-8 p-6 sm:flex-row  widescreen:section-min-height tallscreen:section-min-height"
         id="hero"
       >
         <article className="sm:w-1/2">
-          <h2 className="max-w-md text-center text-4xl font-bold  sm:text-left sm:text-5xl ">
+          <h2 className="max-w-md text-center text-4xl font-bold sm:text-left sm:text-5xl  ">
             All your files in one secure location, accessible anywhere.
           </h2>
           <p className="mt-4 max-w-md text-center text-xl sm:text-left">

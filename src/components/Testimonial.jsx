@@ -9,9 +9,9 @@ const Testimonial = () => {
       <img className="mx-auto w-full" src={BackImg} alt="" />
       <div className="bg-[#F8F8FE]">
         <section
-          className="max-w-7xl mx-auto w-full  mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height
+          className="max-w-7xl mx-auto w-full flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row widescreen:section-min-height tallscreen:section-min-height
         "
-          id="testimonial"
+          id="testimonials"
         >
           <article className="sm:w-1/2">
             <h2 className="max-w-md text-center text-4xl font-bold  sm:text-left sm:text-5xl ">
@@ -39,7 +39,7 @@ const Testimonial = () => {
           </article>
           <img className="w-1/2" src={TestimonialImg} alt="/" />
         </section>
-        <hr className="dark:bg-white mx-auto w-1/2 bg-black" />
+        {/* <hr className="dark:bg-white mx-auto w-1/2 bg-black" /> */}
       </div>
     </>
   );
