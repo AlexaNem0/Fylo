@@ -27,6 +27,7 @@ const InputStart = () => {
         action="/contact"
         method="post"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <input
           className="outline-none rounded-l-lg p-3 lg:px-11 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
           placeholder="your@mail.com"
