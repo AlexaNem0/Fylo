@@ -43,7 +43,9 @@ const InputStart = () => {
           Get Started
         </button>
       </form>
-      <p className="text-red-300 text-sm mt-2">{emailError}</p>
+      <p className="text-red-200 text-sm mt-2 text-center md:text-left">
+        {emailError}
+      </p>
     </div>
   );
 };
