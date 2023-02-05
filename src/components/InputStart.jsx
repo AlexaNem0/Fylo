@@ -22,7 +22,7 @@ const InputStart = () => {
   return (
     <div>
       <form
-        className="mt-4 flex flex-col gap-4 md:gap-6 items-center md:items-start md:flex-row"
+        className="mt-4 flex flex-col gap-2  items-center md:items-start md:flex-row"
         name="contact"
         action="/contact"
         method="post"
@@ -37,7 +37,7 @@ const InputStart = () => {
           onChange={(e) => validateEmail(e)}
         />
         <button
-          className="w-[80vw] md:w-[20vw] lg:w-[10vw] p-[0.9rem] rounded bg-blue-400 hover:bg-sky-300 uppercase text-white text-sm tracking-wide"
+          className="w-[80vw] md:w-[18vw] lg:w-[12vw] p-[0.9rem] rounded bg-blue-400 hover:bg-sky-300 uppercase text-white text-sm tracking-wide"
           type="submit"
         >
           Get Started
